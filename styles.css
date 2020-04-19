@@ -5,13 +5,36 @@ body {
   padding: 0px;
   font-family: 'Roboto', sans-seriff;
 }
+img {
+  width: 300px;
+}
+a {
+}
+a:hover {
+}
+h2 {
+  margin:0;
+}
+.content-wrap {
+  width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
 
 /* PROFILE */
-
+header {
+  background: #2F3061;
+  color: #F7FFF7;
+}
 
 /* PROJECTS */
+.projects {
+  background: #F7FFF7;
+}
 
 /* WORK EXPERIENCE */
+.work-experience {
+  background: #A1C6D7;
 
 /* EDUCATION */
 
