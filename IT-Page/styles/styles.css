@@ -1,0 +1,127 @@
+/*
+COLOR PALETTE
+https://coolors.co/a54657-f7ee7f-f1a66a-414361-2a2d43
+#2a2d43 - Gun Metal
+#414361 - Outer Space
+#747C92 - Slate Gray
+#Ece5f0 - lavender Mist
+#A54a5b - english red
+
+#F7ee7f - sunny
+#F1a66a - Sandy Brown
+*/
+
+/* GLOBAL ________________________ */
+/* Consider Shorthand fonts */
+body {
+    background: #ece5f0;
+}
+a {
+    color: #FFE66D;
+}
+a:hover {
+    text-decoration: none;
+}
+.content-wrap {
+    width: 650px;
+    margin: 0 auto;
+}
+
+/* HEADER ________________________ */
+.header {
+    background: #747C92;
+    padding: 2px;
+    border-radius: 4px;
+}
+.header img {
+    display: block;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    border: 2px solid #2a2d43;
+    border-radius: 4px;
+}
+.header h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin: 1;
+/*    background: #414361;
+    border-radius: 4px;
+    border: 2px solid #2a2d43;*/
+}
+.header p {
+    color: white;
+    text-align: center;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    margin: 2;
+}
+/* UPDATE SPOT ----------------- */
+.update-notification {
+    display: block;
+    background-color: orange;
+    font-size: large;
+    text-align: center;
+    padding: 1px;
+    margin: 5px; 
+}
+/* MENU ________________________ */
+.menu {
+    background: #ece5f0;
+    color: white;
+    padding:12px;
+    margin: 5px;
+    text-align: center;
+}
+.menu a.btn {
+    color: white;
+    font-weight: 900;
+    background: #414361;
+    padding: 8px;
+    border-radius: 4px;
+}
+.menu a.btn:hover {
+    background: rgba(47, 48, 97, 80%);
+}
+
+/* BODY ________________________ */
+.main {
+    background: white;
+    color: #2a2d43;
+    padding:4px;
+}
+.main h3 {
+    color: #A54A5B;
+}
+.main p {
+    color: #2a2d43;
+}
+.main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    padding: 10px;
+    border: 5px solid #A54a5b;
+    border-radius: 4px;
+}
+
+/* FOOTER ________________________ */
+.footspace {
+    background: #ece5f0;
+    color: white;
+    padding:8px;
+    text-align: center;
+}
+.footer {
+    background: #2a2d43;
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+}
