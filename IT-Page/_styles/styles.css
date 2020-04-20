@@ -1,0 +1,114 @@
+/*
+COLOR PALETTE
+https://coolors.co/a54657-f7ee7f-f1a66a-414361-2a2d43
+#2a2d43 - Gun Metal
+#414361 - Outer Space
+#747C92 - Slate Gray
+#Ece5f0 - lavender Mist
+#A54a5b - english red
+
+#F7ee7f - sunny
+#F1a66a - Sandy Brown
+*/
+
+/* GLOBAL ________________________ */
+body {
+    background: #ece5f0;
+}
+a:hover {
+    text-decoration: none;
+}
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* HEADER ________________________ */
+.header {
+    background: #747C92;
+    padding: 4px;
+    border-radius: 4px;
+}
+.header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    border: 2px solid #2a2d43;
+    border-radius: 4px;
+}
+.header h1 {
+    text-align: center;
+    color: #2a2d43;
+}
+.header p {
+    color: #2a2d43;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+/* MENU ________________________ */
+.menu {
+    background: #ece5f0;
+    color: white;
+    padding:12px;
+    text-align: center;
+}
+.menu a.btn {
+    color: white;
+    font-weight: 900;
+    background: #414361;
+    padding: 8px;
+    border-radius: 4px;
+}
+.menu a.btn:hover {
+    background: rgba(47, 48, 97, 80%);
+}
+
+/* BODY ________________________ */
+.main {
+    background: white;
+    color: #2a2d43;
+    padding:4px;
+}
+.main h1 {
+    color: #A54A5B;
+}
+.main p {
+    color: #2a2d43;
+}
+.main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    padding: 10px;
+    border: 5px solid #A54a5b;
+    border-radius: 4px;
+}
+.main a.btn {
+    color: #2a2d43;
+    font-weight: 900;
+    background: #F7ee7f;
+    padding: 8px;
+    border: 1px solid #414361;
+    border-radius: 4px;
+}
+.main a.btn:hover {
+    background: rgba(229, 222, 117, 80%);
+    text-decoration: none;
+}
+
+/* FOOTER ________________________ */
+.footspace {
+    background: #ece5f0;
+    color: white;
+    padding:8px;
+    text-align: center;
+}
+.footer {
+    background: #2a2d43;
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+}
