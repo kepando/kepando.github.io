@@ -12,25 +12,30 @@ https://coolors.co/a54657-f7ee7f-f1a66a-414361-2a2d43
 */
 
 /* GLOBAL ________________________ */
+/* Consider Shorthand fonts */
 body {
     background: #ece5f0;
+}
+a {
+    color: #FFE66D;
 }
 a:hover {
     text-decoration: none;
 }
 .content-wrap {
-    width: 800px;
+    width: 650px;
     margin: 0 auto;
 }
 
 /* HEADER ________________________ */
 .header {
     background: #747C92;
-    padding: 4px;
+    padding: 2px;
     border-radius: 4px;
 }
 .header img {
     display: block;
+    margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
     width: 150px;
@@ -38,20 +43,40 @@ a:hover {
     border-radius: 4px;
 }
 .header h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
     text-align: center;
-    color: #2a2d43;
+    color: white;
+    padding: 5px;
+    margin: 1;
+/*    background: #414361;
+    border-radius: 4px;
+    border: 2px solid #2a2d43;*/
 }
 .header p {
-    color: #2a2d43;
+    color: white;
     text-align: center;
-    padding-bottom: 16px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    margin: 2;
 }
-
+/* UPDATE SPOT ----------------- */
+.update-notification {
+    display: block;
+    background-color: orange;
+    font-size: large;
+    text-align: center;
+    padding: 1px;
+    margin: 5px; 
+}
 /* MENU ________________________ */
 .menu {
     background: #ece5f0;
     color: white;
     padding:12px;
+    margin: 5px;
     text-align: center;
 }
 .menu a.btn {
@@ -71,7 +96,7 @@ a:hover {
     color: #2a2d43;
     padding:4px;
 }
-.main h1 {
+.main h3 {
     color: #A54A5B;
 }
 .main p {
@@ -85,18 +110,6 @@ a:hover {
     padding: 10px;
     border: 5px solid #A54a5b;
     border-radius: 4px;
-}
-.main a.btn {
-    color: #2a2d43;
-    font-weight: 900;
-    background: #F7ee7f;
-    padding: 8px;
-    border: 1px solid #414361;
-    border-radius: 4px;
-}
-.main a.btn:hover {
-    background: rgba(229, 222, 117, 80%);
-    text-decoration: none;
 }
 
 /* FOOTER ________________________ */
