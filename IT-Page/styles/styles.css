@@ -26,7 +26,9 @@ a:hover {
     width: 650px;
     margin: 0 auto;
 }
-
+p.content-wrap {
+    margin: 0px;
+}
 /* HEADER ________________________ */
 .header {
     background: #747C92;
