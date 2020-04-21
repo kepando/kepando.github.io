@@ -51,11 +51,21 @@ header {
 /* WORK EXPERIENCE */
 .work-experience {
   background: #A1C6D7;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
 /* EDUCATION */
+.education {
+  background: #FFE66D;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
 /* CONTACT INFO */
 footer {
   background: #343434;
   color: #F7FFF7;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
