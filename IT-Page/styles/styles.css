@@ -23,11 +23,15 @@ a:hover {
     text-decoration: none;
 }
 .content-wrap {
-    width: 650px;
-    margin: 0 auto;
-}
+  max-width: 800px;
+  margin: auto;
+/*  padding: 60px 0;
+*/}
 p.content-wrap {
     margin: 0px;
+}
+img.content-wrap {
+    width: 300px;
 }
 /* HEADER ________________________ */
 .header {
