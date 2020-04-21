@@ -9,8 +9,11 @@ img {
   width: 300px;
 }
 a {
+  color: #2F3061;
 }
 a:hover {
+  color: #343434;
+  text-decoration: none;
 }
 h1 {
   margin: 0;
