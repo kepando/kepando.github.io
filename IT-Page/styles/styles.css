@@ -27,10 +27,10 @@ a:hover {
   margin: auto;
 /*  padding: 60px 0;
 */}
-p.content-wrap {
+.content-wrap p {
     margin: 0px;
 }
-img.content-wrap {
+.content-wrap img {
     width: 300px;
 }
 /* HEADER ________________________ */
