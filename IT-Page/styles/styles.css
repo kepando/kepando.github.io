@@ -27,12 +27,7 @@ a:hover {
   margin: auto;
 /*  padding: 60px 0;
 */}
-.content-wrap p {
-    margin: 0px;
-}
-.content-wrap img {
-    width: 300px;
-}
+
 /* HEADER ________________________ */
 .header {
     background: #747C92;
@@ -112,10 +107,10 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
-    padding: 10px;
-    border: 5px solid #A54a5b;
-    border-radius: 4px;
+    width: 300px;
+    padding: 0px;
+    /* border: 5px solid #A54a5b;
+    border-radius: 4px; */
 }
 
 /* FOOTER ________________________ */
