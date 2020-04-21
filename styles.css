@@ -37,11 +37,15 @@ ul {
 header {
   background: #2F3061;
   color: #F7FFF7;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 /* PROJECTS */
 .projects {
   background: #F7FFF7;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* WORK EXPERIENCE */
