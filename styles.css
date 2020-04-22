@@ -62,6 +62,27 @@ header h1 {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+.projects .it-project img {
+    margin-top: 10px;
+    width: 100px;
+    float: left;
+    border: 2px #343434 solid;
+}
+.projects .it-project {
+    background: blue;
+    height: 150px;
+    padding-left: 10px;
+}
+.it-project h3, .it-project p {
+    color: white;
+    padding-top: 20px;
+    padding-left: 120px;
+    line-height: .5;
+}
+.it-project a {
+    color: green;
+    padding-left: 50px;
+}
 
 /* WORK EXPERIENCE */
 .work-experience {
