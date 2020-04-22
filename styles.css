@@ -143,8 +143,8 @@ header p {
     border: 2px #343434 solid;
 }
 
-/* -------------------- WORK EXPERIENCE -------------------- */
-.work-experience {
+/* -------------------- ABOUT ME -------------------- */
+.about-me {
     clear: both;
     background: #A1C6D7;
     padding-top: 30px;
@@ -154,6 +154,14 @@ header p {
 /* -------------------- EDUCATION -------------------- */
 .education {
     background: #FFE66D;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* -------------------- WORK EXPERIENCE -------------------- */
+.work-experience {
+    clear: both;
+    background: white;
     padding-top: 30px;
     padding-bottom: 30px;
 }
