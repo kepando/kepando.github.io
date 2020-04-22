@@ -79,11 +79,45 @@ header p {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 10px;
+    font-style: italic;
+    font-weight: 100;
 }
 .projects h2 {
     color: red;
-    font-weight: 900px;
-    
+    font-family: 'Acme', sans-serif;
+    font-size: 32px;
+}
+.projects h3 {
+    float: left;
+    font-family: 'Acme', sans-serif;
+    margin: 15px 400px 15px 0px;
+    color: #343434;
+}
+.projects p {
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    color: #343434;
+    width: 530px;
+    margin: 0px 60px 15px 0px;
+}
+.projects #button {
+    float: right;
+    padding: 10px;
+    margin: 15px 25px 15px 15px;
+    color: black;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px #343434 solid;
+    border-radius: 4px;
+    background: rgba(47, 48, 97, 40%);
+}
+.projects #button:hover {
+    color: white;
+    text-decoration: underline;
+    background: #343434;
+    /*background: rgba(47, 48, 97, 60%);*/    
 }
 /* ********************** IT PROJECT */
 .projects .it-project {
@@ -95,33 +129,6 @@ header p {
     width: 100px;
     float: left;
     border: 2px #343434 solid;
-}
-.it-project h3 {
-    float: left;
-    margin: 15px 500px 15px 0px;
-    color: #343434;
-}
-.it-project p {
-    float: left;
-    color: #343434;
-    width: 530px;
-    margin: 0px 60px 15px 0px;
-}
-.it-project a {
-    float: right;
-    padding: 10px;
-    margin: 0px 0px 0px 0px;
-    color: black;
-    font-size: 14px;
-    text-decoration: none;
-    border: 2px #343434 solid;
-    border-radius: 4px;
-    background: rgba(47, 48, 97, 40%);
-}
-.it-project a:hover {
-    color: white;
-    text-decoration: underline;
-    background: rgba(47, 48, 97, 60%);
 }
 /* ********************** PICTURES PAGE */
 .projects .pic-page {
@@ -135,35 +142,10 @@ header p {
     float: left;
     border: 2px #343434 solid;
 }
-.pic-page h3 {
-    float: left;
-    margin: 15px 500px 15px 0px;
-    color: #343434;
-}
-.pic-page p {
-    float: left;
-    color: #343434;
-    width: 530px;
-    margin: 0px 60px 15px 0px; 
-}
-.pic-page a {
-    float: right;
-    padding: 10px;
-    margin: 0px 0px 0px 0px;
-    color: black;
-    font-size: 14px;
-    text-decoration: none;
-    border: 2px #343434 solid;
-    border-radius: 4px;
-    background: rgba(47, 48, 97, 40%);
-}
-.pic-page a:hover {
-    color: white;
-    text-decoration: underline;
-    background: rgba(47, 48, 97, 60%);
-}
+
 /* -------------------- WORK EXPERIENCE -------------------- */
 .work-experience {
+    clear: both;
     background: #A1C6D7;
     padding-top: 30px;
     padding-bottom: 30px;
