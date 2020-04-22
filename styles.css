@@ -1,114 +1,192 @@
-/* GLOBAL STYLES */
+/*
+COLOR PALETTE
+https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
+#F7FFF7 - ALMOST WHITE
+#343434 - DARK GRAY
+#2F3061 - DARK BLUE
+#FFE66D - YELLOW
+#A1C6D7 - LIGHT BLUE
+background: rgba(47, 48, 97, 80%)
+*/
+
+/* -------------------- GLOBAL STYLES -------------------- */
 body {
-  color: #343434;
-  margin: 0px;
-  padding: 0px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px; /* Set a base font size */
-  line-height: 1.5; /* Set a line height */
-}
-img {
-  width: 300px;
+    color: #343434;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px; /* Set a base font size */
+    line-height: 1.5; /* Set a line height */
 }
 a {
-  color: #2F3061;
+    color: #2F3061;
 }
 a:hover {
-  color: #343434;
-  text-decoration: none;
+    color: #343434;
+    text-decoration: none;
 }
 h1 {
-  font-size: 100px;
-  line-height: 1;
+    font-size: 100px;
+    line-height: 1;
 }
 h2 {
-  font-size: 45px;
+    font-size: 25px;
 }
 h3 {
-  margin: 0;
+    margin: 0;
 }
 h1, h2 {
-  /* font-family: 'Caveat', cursive;*/
-  font-weight: 400;
-  margin: 0;
+    /* font-family: 'Caveat', cursive;*/
+    font-weight: 400;
+    margin: 0;
 }
 p {
-  margin: 0;
+    margin: 0;
 }
 ul {
-  margin: 0;
+    margin: 0;
 }
 .content-wrap {
-  max-width: 900px;
-  margin: auto;
-/*  padding: 60px 0;
+    max-width: 900px;
+    margin: auto;
+    /*  padding: 60px 0;
 */}
 
-/* PROFILE */
+/* -------------------- PROFILE -------------------- */
 header {
-  background: #2F3061;
-  color: #F7FFF7;
-  padding-top: 50px;
-  padding-bottom: 50px;
+    background: #2F3061;
+    color: #F7FFF7;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 header h1 {
-  font-family: 'Yeseva One', cursive;
-  font-size: 70px;
+    font-family: 'Yeseva One', cursive;
+    font-size: 70px;
+}
+header h2 {
+    font-size: 25px;
+    padding-left: 10px;
+}
+header p {
+    font-size: 16px;
+    padding-left: 10px;
+    width: 650px;
 }
 
-/* PROJECTS */
+/* -------------------- PROJECTS -------------------- */
 .projects {
-  background: #F7FFF7;
-  padding-top: 30px;
-  padding-bottom: 30px;
+    background: #F7FFF7;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
+.projects h2 {
+    color: red;
+    font-weight: 900px;
+    
+}
+/* ********************** IT PROJECT */
+.projects .it-project {
+    height: 170px;
+    padding-left: 20px;
 }
 .projects .it-project img {
-    margin-top: 10px;
+    margin: 15px;
     width: 100px;
     float: left;
     border: 2px #343434 solid;
 }
-.projects .it-project {
-    background: blue;
-    height: 150px;
-    padding-left: 10px;
+.it-project h3 {
+    float: left;
+    margin: 15px 500px 15px 0px;
+    color: #343434;
 }
-.it-project h3, .it-project p {
-    color: white;
-    padding-top: 20px;
-    padding-left: 120px;
-    line-height: .5;
+.it-project p {
+    float: left;
+    color: #343434;
+    width: 530px;
+    margin: 0px 60px 15px 0px;
 }
 .it-project a {
-    color: green;
-    padding-left: 50px;
+    float: right;
+    padding: 10px;
+    margin: 0px 0px 0px 0px;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    border: 2px #343434 solid;
+    border-radius: 4px;
+    background: rgba(47, 48, 97, 40%);
 }
-
-/* WORK EXPERIENCE */
+.it-project a:hover {
+    color: white;
+    text-decoration: underline;
+    background: rgba(47, 48, 97, 60%);
+}
+/* ********************** PICTURES PAGE */
+.projects .pic-page {
+    clear: both;
+    height: 150px;
+    padding-left: 20px;
+}
+.projects .pic-page img {
+    margin: 15px;
+    width: 100px;
+    float: left;
+    border: 2px #343434 solid;
+}
+.pic-page h3 {
+    float: left;
+    margin: 15px 500px 15px 0px;
+    color: #343434;
+}
+.pic-page p {
+    float: left;
+    color: #343434;
+    width: 530px;
+    margin: 0px 60px 15px 0px; 
+}
+.pic-page a {
+    float: right;
+    padding: 10px;
+    margin: 0px 0px 0px 0px;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    border: 2px #343434 solid;
+    border-radius: 4px;
+    background: rgba(47, 48, 97, 40%);
+}
+.pic-page a:hover {
+    color: white;
+    text-decoration: underline;
+    background: rgba(47, 48, 97, 60%);
+}
+/* -------------------- WORK EXPERIENCE -------------------- */
 .work-experience {
-  background: #A1C6D7;
-  padding-top: 30px;
-  padding-bottom: 30px;
+    background: #A1C6D7;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-/* EDUCATION */
+/* -------------------- EDUCATION -------------------- */
 .education {
-  background: #FFE66D;
-  padding-top: 30px;
-  padding-bottom: 30px;
+    background: #FFE66D;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-/* CONTACT INFO */
+/* -------------------- CONTACT INFO -------------------- */
 footer {
-  background: #343434;
-  color: #F7FFF7;
-  padding-top: 30px;
-  padding-bottom: 30px;
+    background: #343434;
+    color: #F7FFF7;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 footer a {
-  color: #F7FFF7;
-  text-decoration: none;
+    color: #F7FFF7;
+    text-decoration: none;
 }
 footer a:hover {
-  font-weight: bold;
+    font-weight: bold;
 }
