@@ -120,7 +120,7 @@ article h3 {
     height: 180px;
 }
 #two {
-    height: 90px;
+    height: 80px;
 }
 #three {
     height: 100px;
@@ -130,5 +130,49 @@ footer {
     clear: both;
     color: #FFFCF2;
     background: #3F4045 ;
-    height: 50px;
+    height: 130px;
+    margin: 0px;
+}
+.footer p {
+    color: white;
+    font-size: 10px;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px 30px 0px 30px;
+}
+.footer h4 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 30px 30px 0px 30px;
+    font-size: 12px;
+    font-weight: 600;
+}
+#left {
+    background: none;
+    float:left;
+    width: 230px;
+    text-align: right;
+}
+#middle {
+    background: none;
+    float: left;
+    width: 340px;
+    text-align: center;
+}
+#right {
+    background: none;
+    float: right;
+    width: 230px;
+    text-align: left;
+}
+#bottom {
+    clear: both;
+    width: 800px;
+    background: none;
+    text-align: center;
+}
+#bottom p {
+    margin: 0px;
+    padding: 10px 0px 10px 0px;    
 }
