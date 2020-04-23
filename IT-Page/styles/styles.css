@@ -54,7 +54,7 @@ aside {
     color: #FFFCF2;
     background: rgba(63,64,69,.35);
     height: 600px;
-    width: 170px;
+    width: 180px;
     float: left;
 }
 aside a.button {
@@ -67,34 +67,37 @@ aside a.button {
     background: #3F4045;
     height: 40px;
     width: 150px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 15px 15px 5px 15px;
     padding: 0px;
     border-radius: 4px;
+/*    box-shadow: 2px 2px 10px rgba(63,64,69,1);*/
 }
 aside a.button:hover {
     color: white;
     border: 2px solid white;
     background: #C73E1D;
+    box-shadow: none;
 }
 
 /* MAIN CONTENT */
 article {
     background: rgba(63,64,69,.05);
     height: 600px;
-    width: 630px;
+    width: 620px;
     float: left;
     padding: 20;
     text-align: center;
+    box-shadow: inset 5px 5px 10px rgba(63,64,69,.8);
 }
 article h1 {
     color: blue;
     margin: 10px 0px 10px 0px;
+    text-shadow: 5px 5px 10px rgba(63,64,69,.6);
 }
 article h3 {
     color: black;
     margin: 0;
+    text-shadow: 5px 5px 10px rgba(63,64,69,.6);
 }
 .content-box {
     clear: both;
@@ -107,6 +110,7 @@ article h3 {
     font-size: 12px;
     text-align: left;
     line-height: 16px;
+    box-shadow: 7px 7px 10px rgba(63,64,69,.8);
 }
 .content-box h4 {
     margin: 0px 0px 5px 0px;
