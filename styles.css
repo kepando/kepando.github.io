@@ -148,7 +148,7 @@ header p {
     background: #A1C6D7;
     color: #2F3061;
     padding: 30px 0px 30px 10px;
-    height: 490px;
+    height: 520px;
 }
 #job {
     background: lightgreen;
@@ -159,18 +159,25 @@ header p {
     color: blue;
     margin: 0;
 }
+#job h3 em {
+    color: rgba(0, 0, 0, 60%);
+}
 #job h4 {
     color: green;
     padding: 0px 0px 0px 15px;
     margin: 0px;
 }
 #job p {
+    font-weight: 900;
+    text-decoration: underline;
     padding: 0px 0px 0px 25px;
 }
 #job .desc {
-    background: red;
+    font-weight: 100;
+    text-decoration: none;
     padding-left: 40px;
-    width: 800px;
+    padding-bottom: 10px;
+    width: 75q0px;
 }
 #job ul {
     color: red;
@@ -222,12 +229,13 @@ header p {
 .about-me h2 {
     float: left;
     font-size: 24px;
-    padding: 0px 0px 0px 15px;
+    padding: 0px 0px 0px 20px;
 }
 .about-me p {
     float: left;
-    width: 700px;
-    padding: 0px 0px 0px 30px;
+    width: 690px;
+    padding: 0px 0px 0px 40px;
+    font-style: italic;
 }
 
 /* -------------------- CONTACT INFO -------------------- */
