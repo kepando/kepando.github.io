@@ -30,7 +30,7 @@ h1 {
     line-height: 1;
 }
 h2 {
-    font-size: 25px;
+    font-size: 28px;
 }
 h3 {
     margin: 0;
@@ -64,7 +64,6 @@ header h1 {
     font-size: 70px;
 }
 header h2 {
-    font-size: 25px;
     padding-left: 10px;
 }
 header p {
@@ -76,15 +75,14 @@ header p {
 /* -------------------- PROJECTS -------------------- */
 .projects {
     background: #F7FFF7;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 10px;
+    padding: 30px 0px 30px 10px;
     font-style: italic;
     font-weight: 100;
     height: 350px;
 }
 .projects h2 {
     color: red;
+    padding: 0px 0px 0px 0px;
     font-family: 'Acme', sans-serif;
     font-size: 32px;
 }
@@ -144,40 +142,54 @@ header p {
     border: 2px #343434 solid;
 }
 
-/* -------------------- ABOUT ME -------------------- */
-.about-me {
+/* -------------------- WORK EXPERIENCE -------------------- */
+.work-experience {
     clear: both;
     background: #A1C6D7;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    height: 100px;
+    color: #2F3061;
+    padding: 30px 0px 30px 10px;
+    height: 490px;
 }
-.about-me p {
-    padding-left: 10px;
+#job {
+    background: lightgreen;
+    padding: 0px 15px 15px 35px;
+    width: 400;
+}
+#job h3 {
+    color: blue;
+    margin: 0;
+}
+#job h4 {
+    color: green;
+    padding: 0px 0px 0px 15px;
+    margin: 0px;
+}
+#job p {
+    padding: 0px 0px 0px 25px;
+}
+#job .desc {
+    background: red;
+    padding-left: 40px;
+    width: 800px;
+}
+#job ul {
+    color: red;
+    padding-left: 60px;
 }
 
 /* -------------------- EDUCATION -------------------- */
 .education {
+    clear: both;
     background: #FFE66D;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    height: 100px;
+    padding: 30px 0px 0px 10px;
+    height: 360px;
 }
 .education h2 {
-    font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: 900;
-    text-align: center;
-    text-decoration: underline;
     color: #343434;
 }
 #school {
-    float: left;
-    width: 350px;
-    padding: 0px 0px 0px 50px;
-    margin: 10px 0px 10px 0px;
-    line-height: 1;
-    border: 2px solid black;
+    padding: 0px 10px 10px 35px;
 }
 #school h3 {
     color:green
@@ -187,19 +199,35 @@ header p {
     margin: 0px;
     padding-left: 10px;
 }
-.csu {
-
+#school p {
+    margin: 0;
+    padding-left: 20px;
 }
-.pcc {
-
+#school u {
+    
 }
 
-/* -------------------- WORK EXPERIENCE -------------------- */
-.work-experience {
+/* -------------------- ABOUT ME -------------------- */
+.about-me {
     clear: both;
     background: white;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 25px 25px 25px 25px;
+    height: 150px;
+}
+.about-me img {
+    float: left;
+    width: 110px;
+    border: 2px #343434 solid;
+}
+.about-me h2 {
+    float: left;
+    font-size: 24px;
+    padding: 0px 0px 0px 15px;
+}
+.about-me p {
+    float: left;
+    width: 700px;
+    padding: 0px 0px 0px 30px;
 }
 
 /* -------------------- CONTACT INFO -------------------- */
