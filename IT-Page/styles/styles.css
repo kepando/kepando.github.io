@@ -116,13 +116,16 @@ article h3 {
     text-align: justify;
     padding: 0px 45px 0px 45px;
 }
-#one {
+#four {
+    height: 60px;
+}
+#three {
     height: 180px;
 }
 #two {
-    height: 80px;
+    height: 60px;
 }
-#three {
+#one {
     height: 100px;
 }
 /* FOOTER */
@@ -151,19 +154,19 @@ footer {
 #left {
     background: none;
     float:left;
-    width: 230px;
+    width: 240px;
     text-align: right;
 }
 #middle {
     background: none;
     float: left;
-    width: 340px;
+    width: 320px;
     text-align: center;
 }
 #right {
     background: none;
     float: right;
-    width: 230px;
+    width: 240px;
     text-align: left;
 }
 #bottom {
