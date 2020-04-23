@@ -81,6 +81,7 @@ header p {
     padding-left: 10px;
     font-style: italic;
     font-weight: 100;
+    height: 350px;
 }
 .projects h2 {
     color: red;
@@ -121,7 +122,7 @@ header p {
 }
 /* ********************** IT PROJECT */
 .projects .it-project {
-    height: 170px;
+    height: 150px;
     padding-left: 20px;
 }
 .projects .it-project img {
@@ -149,6 +150,10 @@ header p {
     background: #A1C6D7;
     padding-top: 30px;
     padding-bottom: 30px;
+    height: 100px;
+}
+.about-me p {
+    padding-left: 10px;
 }
 
 /* -------------------- EDUCATION -------------------- */
@@ -156,6 +161,37 @@ header p {
     background: #FFE66D;
     padding-top: 30px;
     padding-bottom: 30px;
+    height: 100px;
+}
+.education h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: underline;
+    color: #343434;
+}
+#school {
+    float: left;
+    width: 350px;
+    padding: 0px 0px 0px 50px;
+    margin: 10px 0px 10px 0px;
+    line-height: 1;
+    border: 2px solid black;
+}
+#school h3 {
+    color:green
+}
+#school h4 {
+    color: red;
+    margin: 0px;
+    padding-left: 10px;
+}
+.csu {
+
+}
+.pcc {
+
 }
 
 /* -------------------- WORK EXPERIENCE -------------------- */
