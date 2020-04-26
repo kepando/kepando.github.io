@@ -10,6 +10,10 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 #C17C74 - OLD ROSE (Salmon)
 #2A3D45 - Charcoal
 background: rgba(47, 48, 97, 80%)
+3B0c0c - Dark Sienna (59,12,12)
+#EAD2AC - WHEAT
+#D6A184 - Orange ish tangerine/salmon
+#EEE0CB - BONE
 */
 
 /* -------------------- GLOBAL STYLES -------------------- */
@@ -53,7 +57,7 @@ ul {
     margin: 0;
 }
 .content-wrap {
-    max-width: 900px;
+    max-width: 800px;
     margin: auto;
     /*  padding: 60px 0;
 */}
@@ -64,12 +68,12 @@ header {
     color: #F7FFF7;
     padding-top: 50px;
     padding-bottom: 30px;
-    box-shadow: 2px 5px 10px #7A6C5d;
+    box-shadow: 0px 5px 10px #7A6C5d;
 }
 header h1 {
     font-family: 'Yeseva One', cursive;
     font-size: 60px;
-    text-shadow: 2px 2px 10px black;
+    text-shadow: 2px 2px 10px #3B0C0C;
     text-align: center;
 }
 header h2 {
@@ -77,7 +81,7 @@ header h2 {
     padding-left: 10px;
     text-align: center;
     letter-spacing: 2px;
-    text-shadow: 2px 2px 10px rgba(193,124,116, 120%);
+    text-shadow: 2px 2px 10px #3B0C0C;
 }
 header p {
     font-size: 16px;
@@ -90,14 +94,14 @@ header p {
     background: none;
     padding: 30px 10px 30px 10px;
     font-weight: 100;
-    height: 440px;
-    box-shadow: inset -2px -2px 5px #7A6C5d;
+    height: 450px;
+    /*box-shadow: inset -2px -2px 5px #7A6C5d;*/
 }
 .projects h2 {
     color: white;
     width: 700;
     margin: 0px auto;
-    padding: 0px 0px 10px 10px;
+    padding: 0px 0px 10px 0px;
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
     font-weight: 500;
@@ -111,12 +115,12 @@ header p {
     height: 130px;
     width: 720px;
     padding: 15px;
-    margin: 0px auto 10px auto;
+    margin: 0px auto 15px auto;
     box-shadow: 2px 2px 5px #7A6C5d;
+    border-radius: 2px
 }
 .projects img {
-    /*box-shadow: 2px 5px 10px #7A6C5d;
-    border: 2px solid #2A3D45;*/
+    border: 1px solid #2A3D45;
     opacity: .9;
     filter: grayscale(60%);
     margin: auto;
@@ -140,7 +144,7 @@ header p {
 .projects #button {
     float: right;
     padding: 5px 15px;
-    margin: auto 10px auto 10px;
+    margin: 5px 10px auto 10px;
     color: #2A3D45;
     font-size: 14px;
     font-style: normal;
@@ -171,12 +175,27 @@ header p {
 /* -------------------- WORK EXPERIENCE -------------------- */
 .work-experience {
     clear: both;
-    background: #A1C6D7;
+    background: #D6A184;
     color: #2A3D45;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 2px;
-    padding: 30px 0px 30px 10px;
-    height: 520px;
+    height: 540px;
+    width: 850px;
+    margin: 0px auto;
+    padding: 20px 10px 30px 10px;
+    box-shadow: 2px 5px 10px #7A6C5d;
+    border-radius: 2px;
+}
+.work-experience h2 {
+    color: 2A3D45;
+    width: 700;
+    margin: 0px auto;
+    padding: 0px 0px 10px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 #job {
     background: none;
@@ -216,9 +235,10 @@ header p {
 /* -------------------- EDUCATION -------------------- */
 .education {
     clear: both;
-    background: #FFE66D;
+    background: none;
     padding: 30px 0px 30px 10px;
     height: 340px;
+    width: 800px;
 }
 .education h2 {
     font-style: normal;
@@ -286,19 +306,25 @@ header p {
 /* -------------------- ABOUT ME -------------------- */
 .about-me {
     clear: both;
-    background: none;
-    padding: 25px 25px 25px 25px;
-    height: 150px;
+    background: #A9B18F;
+    color: #2A3D45;
+    font-family: 'Open Sans', sans-serif;
+    padding: 25px 25px 0px 25px;
+    height: 270px;
+    width: 800px;
+    margin: 0px auto;
+    box-shadow: 0px -1px 10px #7A6C5d;
 }
 .about-me img {
     float: left;
     width: 110px;
-    border: 2px #343434 solid;
+    border: 2px solid #2A3D45;
+    margin-top: 12px;
 }
 #about {
     float: left;
     width: 660px;
-    padding: 15px 0px 15px 0px;
+    padding: 0px 0px 12px 0px;
 }
 #about h2 {
     font-size: 24px;
@@ -309,16 +335,16 @@ header p {
     padding: 0px 0px 0px 40px;
     font-style: italic;
 }
-.links {
+.about-me ul {
     clear: both;
-    background: nonw;
-    padding: 15px 25px 15px 25px;
-    height: 70px;
+    padding: 0px 0px 0px 40px;
+    font-style: italic;
 }
 /* -------------------- CONTACT INFO -------------------- */
 footer {
     background: #343434;
     color: #F7FFF7;
+    height: 200px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
