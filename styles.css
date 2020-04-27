@@ -127,6 +127,11 @@ header p {
     width: 100px;
     float: left;
 }
+.projects img:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+    box-shadow: 2px 5px 10px black;
+}
 .projects h3 {
     float: left;
     font-family: 'Roboto', sans-serif;
