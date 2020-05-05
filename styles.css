@@ -184,8 +184,8 @@ header p {
     clear: both;
     background: none;
     padding: 20px 0px 30px 10px;
-    height: 490px;
-    width: 750px;
+    height: 520px;
+    width: 780px;
     font-family: 'Open Sans', sans-serif;
     border: 2px solid white;
     margin: 25px auto 35px auto;
@@ -196,7 +196,7 @@ header p {
     width: 730px;
     text-align: center;
 /*    padding-left: 35px;*/
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
     font-weight: 500;
@@ -207,8 +207,7 @@ header p {
 .schooling {
     background: none;
     float: left;
-    width: 374px;
-    border-right: 1px solid white;
+    width: 384px;
 }
 #school {
     padding: 0px 10px 10px 35px;
@@ -242,6 +241,7 @@ header p {
     float: left;
     background: none;
     width: 365px;
+    border-left: 2px solid white;
 } /*
 .cert-entry {
     float: left;
@@ -250,6 +250,7 @@ header p {
 } */
 #cert {
     padding: 0px 10px 10px 35px;
+    margin: 0px 10px;
 }
 #cert h3 {
     color:#2A3D45;
@@ -338,7 +339,7 @@ header p {
     font-family: 'Open Sans', sans-serif;
     padding: 25px 25px 0px 25px;
     height: 270px;
-    width: 800px;
+    width: 900px;
     margin: 0px auto 0px auto;
     box-shadow: 0px -1px 10px #7A6C5d;
 }
