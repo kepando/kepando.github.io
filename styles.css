@@ -177,63 +177,7 @@ header p {
 #three {
     height: 90px;
 }
-/* -------------------- WORK EXPERIENCE -------------------- */
-.work-experience {
-    clear: both;
-    background: #D6A184;
-    color: #2A3D45;
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 2px;
-    height: 540px;
-    width: 850px;
-    margin: 0px auto;
-    padding: 20px 10px 30px 10px;
-    box-shadow: 2px 5px 10px #7A6C5d;
-    border-radius: 2px;
-}
-.work-experience h2 {
-    color: #2A3D45;
-    width: 700;
-    margin: 0px auto;
-    padding: 0px 0px 10px 0px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-#job {
-    background: none;
-    padding: 0px 15px 15px 35px;
-    width: 400;
-}
-#job h3 {
-    font-weight: 900;
-    margin: 0;
-}
-#job h3 em {
-    font-size: 14px;
-}
-#job h4 {
-    padding: 0px 0px 0px 15px;
-    color: rgba(0, 0, 0, 60%);
-    margin: 0px;
-}
-#job p {
-    font-weight: 900;
-    text-decoration: underline;
-    padding: 0px 0px 0px 25px;
-}
-#job .desc {
-    font-weight: 100;
-    text-decoration: none;
-    padding-left: 40px;
-    padding-bottom: 10px;
-    width: 75q0px;
-}
-#job ul {
-    padding-left: 60px;
-}
+
 
 /* -------------------- EDUCATION -------------------- */
 .education {
@@ -328,6 +272,64 @@ header p {
     text-decoration: none;
 }
 
+/* -------------------- WORK EXPERIENCE -------------------- */
+.work-experience {
+    clear: both;
+    background: #D6A184;
+    color: #2A3D45;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    height: 540px;
+    width: 850px;
+    margin: 20px auto;
+    padding: 20px 10px 30px 10px;
+    box-shadow: 2px 5px 10px #7A6C5d;
+    border-radius: 2px;
+}
+.work-experience h2 {
+    color: #2A3D45;
+    width: 700;
+    margin: 0px auto;
+    padding: 0px 0px 10px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#job {
+    background: none;
+    padding: 0px 15px 15px 35px;
+    width: 400;
+}
+#job h3 {
+    font-weight: 900;
+    margin: 0;
+}
+#job h3 em {
+    font-size: 14px;
+}
+#job h4 {
+    padding: 0px 0px 0px 15px;
+    color: rgba(0, 0, 0, 60%);
+    margin: 0px;
+}
+#job p {
+    font-weight: 900;
+    text-decoration: underline;
+    padding: 0px 0px 0px 25px;
+}
+#job .desc {
+    font-weight: 100;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    width: 75q0px;
+}
+#job ul {
+    padding-left: 60px;
+}
+
 /* -------------------- ABOUT ME -------------------- */
 .about-me {
     clear: both;
@@ -337,7 +339,7 @@ header p {
     padding: 25px 25px 0px 25px;
     height: 270px;
     width: 800px;
-    margin: 0px auto;
+    margin: 0px auto 0px auto;
     box-shadow: 0px -1px 10px #7A6C5d;
 }
 .about-me img {
