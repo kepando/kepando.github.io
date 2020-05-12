@@ -215,12 +215,7 @@ a#proj p {
     background: none;
     width: 365px;
     border-left: 2px solid white;
-} /*
-.cert-entry {
-    float: left;
-    background: darkgreen;
-    width: 180px;
-} */
+}
 #cert {
     padding: 0px 10px 10px 35px;
     margin: 0px 10px;
@@ -238,12 +233,25 @@ a#proj p {
     color: rgba(0, 0, 0, 60%);
     font-size: 14px;
 }
+#cert h5 {
+    color: #2A3D45;
+    font-size: 14px;
+    font-weight: 900;
+    margin: 0px;
+    padding-left: 0px;
+}
 #cert p {
     margin: 0;
     padding-left: 30px;
 }
 #cert a {
     text-decoration: none;
+    font-weight: 900;
+}
+#cert ul {
+    padding-left: 40px;
+    padding-right: 0px;
+    padding-bottom: 0px;
 }
 
 /* -------------------- WORK EXPERIENCE -------------------- */
