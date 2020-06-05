@@ -1,58 +1,353 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <title>Ken Villalpando</title>
-        <!-- GOOGLE FONTS -->
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
-        <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet"> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Ken Villalpando, Tech Hobbyist + IT Professional</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" href=".\styles.css">
+        <style>
+            /* ********** GLOBAL ********** */
+            html {
+                background: #AB9B8C;
+            }
+            body {
+                margin: 0 auto;
+            }
+            main {
+                max-width: 900px;
+                width: 85%;
+                margin: 0 auto;
+
+                display: grid;
+                grid-template-columns: 1fr;
+
+                grid-auto-rows: minmax(50px, auto);
+
+                grid-gap: 20px;
+                gap: 20px;
+            }
+            h2, h3, h4, h5, h6, p, ul, li {
+                margin: 0;
+                /* font-weight: 100; */
+            }
+
+            /* ********** HEADER ********** */
+            header {
+                width: 100%;
+                background: #C17C74;
+
+                color: #F7FFF7;
+                padding: 20px 0px;
+                box-shadow: 0px 5px 10px #7A6C5d;
+            }
+            header div {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-auto-rows: minmax(20px, auto);
+                grid-gap: 10px;
+                gap: 10px;
+
+                text-align: center;
+                text-shadow: 2px 2px 10px #3B0C0C;
+            }
+            header div h1 {
+                grid-row: 1;
+                font-size: 60px;
+                font-weight: 400;
+                line-height: 1;
+                font-family: 'Yeseva One', cursive;
+
+                margin: 0;
+            }
+            header div p {
+                grid-row: 2;
+                font-size: 24px;
+                font-family: 'Open Sans', sans-serif;
+                letter-spacing: 2px;
+
+                margin: 0;
+            }
+
+
+            /* Navigation*/
+            nav {
+                width: 80%;
+                background: none;
+                border: 1px solid white;
+
+                margin: 10px auto;
+                padding: 0px 0px;
+
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+            /* Welcome Message */
+            .welcome { /* Message for Work In Progress s */
+                width: 100%;
+                margin: 0px auto 10px;
+                padding: 0;
+                text-align: center;
+
+                font-family: 'Open Sans', sans-serif;
+                font-size: 12px;
+                color:darkred;
+                background:#EEE0CB;
+                box-shadow: 2px 2px 10px #7A6C5d;
+            }
+
+            /* ********** CONTENT ********** */
+            article.education {
+                background: none;
+                width: 80%;
+                padding: 10px;
+                font-family: 'Open Sans', sans-serif;
+                border: 2px solid white;
+                margin: 0px auto;
+            }
+
+                /* EDU CONTENT */
+                .ed-exp div.title {
+                    grid-column: 1/3;
+                    grid-row: 1;
+
+                    color: white;
+                    text-align: center;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    font-weight: 400;
+                    text-shadow: 2px 5px 10px #7A6C5d;
+
+                    padding-bottom: 5px;
+                }
+                .ed-exp div {
+                    padding-bottom: 10px;
+
+                }
+                .ed-exp div.one {
+                    grid-column: 1;
+                    grid-row: 2;
+                    color: #2A3D45;
+
+                    padding-right: 5px;
+                }
+                .ed-exp div.two {
+                    grid-column: 2;
+                    grid-row: 2;
+                    color: #2A3D45;
+                    border-left: 1px solid white;
+                    padding-left: 10px;
+                }
+                .ed-exp div.three {
+                    grid-column: 1;
+                    grid-row: 3;
+                    color: #2A3D45;
+
+                    padding-right: 5px;
+                }
+                .ed-exp div.four {
+                    grid-column: 2;
+                    grid-row: 3;
+                    color: #2A3D45;
+                    border-left: 1px solid white;
+                    padding-left: 10px;
+                }
+                article.education h5 {
+                    padding-left: 25px;
+                }
+                article.education p {
+                    padding-left: 40px;
+                }
+
+            /* WORK EXPERIENCE */
+            .work {
+                width: 85%;
+                background: #D6A184;
+                color: #2A3D45;
+                font-family: 'Open Sans', sans-serif;
+
+                margin: 0px auto;
+                padding: 10px 20px 30px 20px;
+                box-shadow: 2px 5px 10px #7A6C5d;
+                border-radius: 2px;
+            }
+            .work p, .work ul {
+                font-size: small;
+            }
+            .job-item {
+                /* border: 1px solid blue; */
+                padding: 5px;
+                /* border-top: 1px solid #2A3D45; */
+                border-bottom: 1px dashed #2A3D45;
+            }
+            .job-details {
+                /* border: 1px solid yellow; */
+                /* padding: 5px; */
+            }
+            .job-summary p {
+                padding-bottom: 10px;
+            }
+
+            /* PROJECTS */
+            article.projects {
+                width: 100%;
+                text-align: center;
+            }
+
+            /* ABOUT ME */
+            .about {
+                width: 80%;
+                /* background: #A9B18F; */
+                background: #2A3D45;
+                color: #2A3D45;
+                font-family: 'Open Sans', sans-serif;
+                padding: 10px;
+                margin: 0px auto 20px auto;
+                box-shadow: 2px 5px 10px #7A6C5d;
+                border-radius: 4px;
+
+                background-image:url(/pictures/ecola.JPEG);
+                background-blend-mode: overlay;
+                background-size: cover; 
+
+                display: grid;
+                grid-template-columns: 1fr 3fr;
+                gap: 10px;
+            }
+            .about img {
+                width: 120px;
+                border: 2px solid #ffffff;
+                /* border-radius: 4px; */
+
+                margin: auto;
+                padding: 5px;
+
+                grid-row: 1/3;
+                grid-column: 1;
+            }
+            .about .me-info {
+                grid-row: 1;
+                grid-column: 2/3;
+                width: 85%;;
+                padding: 10px;
+                /* margin: auto 20px auto 0px; */
+                background-color: #ffffff;
+                opacity: 0.7;
+                /* border-radius: 4px; */
+            }
+            .about .links {
+                /* text-align: center; */
+                grid-row: 2;
+                grid-column: 2/3;
+                padding-left: 10px;
+                font-size: small;
+            }
+            .about h2 {
+                font-size: medium;
+                /* width: 90%; */
+                margin: 0px auto;
+            }
+            .about h4 {
+                color: yellow;
+            }
+            .about p {
+                color: black;
+                /* width: 90%; */
+                font-size:small;
+                margin: 0px auto;
+            }
+            .about ul {
+                list-style-type: none;
+                padding: 0px 0px 10px 0px;
+            }
+            .about li {
+                padding: 0px 10px;
+            }
+            .about a {
+                color: white;
+            }
+
+            /* ********** FOOTER ********** */
+            footer {
+                width: 100%;
+                background: #343434;
+                color: #F7FFF7;
+                height: 150px;
+                padding-top: 30px;
+                padding-bottom: 30px;
+                text-align: center;
+            }
+            .contact-list {
+                list-style-type: none;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+            }
+            .contact-list a {
+                color: white;
+                padding: 15px;
+                display: inline-block;
+            }
+
+            /* RESPONSIVE */
+            @media screen and (min-width: 376px) {
+                /* WORK */
+                .job-item {
+                    display: grid;
+                    grid-template-columns: 1fr 3fr;
+                    column-gap: 20px;;
+                }
+                /* EDU */
+                article.education.ed-exp {
+                    display: grid;
+                    grid-template-columns: repeat(2, minmax(0, 1fr));
+                    box-shadow: 2px 2px 10px #7A6C5d, inset 2px 2px 10px #7A6C5d;
+                }
+
+            }
+
+        </style>
     </head>
+
     <body>
+        <!-- HEADER -->
+        <header>
+            <div>
+                <h1>Ken Villalpando</h1>
+                <p>Tech Hobbyist + IT Professional</p>
+            </div>
+        </header>
+        
+        <!-- NAVIGATION -->
+        <!-- <nav>Navigation Content</nav> -->
+
+        <!-- DISCLAIMER -->
+        <section class="welcome">
+            * Work In Progress * Welcome! This page is for me to show what I've learned about
+            HTML, CSS, and JavaScript.
+        </section>
+
         <main>
-            <!-- HEADER -->
-            <header>
-                <div>
-                    <h1>Ken Villalpando</h1>
-                    <h2>Tech Hobbyist + IT Professional</h2>
+            <!-- LEARNING EXPERIENCE -->
+            <article class="education ed-exp">
+                <div class="title"><h3>Certifications + education</h3></div>
+                <div class="one">
+                    <h4><a href="https://www.linkedin.com/learning/gaining-skills-with-linkedin-learning-2/learning-paths" target="_blank">LinkedIn Learning</a></h4>
+                    <ul>
+                        <li>Intro to Web Design and Development</li>
+                        <li><a href="https://www.linkedin.com/learning/paths/become-a-front-end-web-developer?trk=learning-serp_learning_search-card&upsellOrderOrigin=default_guest_learningg" target="_blank">Learning Path: Become a Front End Web Developer</a> <em>[In Progress]</em></li>
+                        <li><a href="https://www.linkedin.com/learning/paths/become-a-junior-wordpress-developer?trk=learning-serp_learning_search-card&upsellOrderOrigin=default_guest_learning" target="_blank">Learning Path: Become a Junior Wordpress Developer</a> <em>[In Progress]</em></li>
+                    </ul>
                 </div>
-            </header>
-            <!-- Education and Certifications -->
-            <section class="education content-wrap">
-                <h2>Certifications + Education</h2>
-                <div class="certifications">
-                    <section id="cert">
-                        <h3><a href="https://www.linkedin.com/learning/gaining-skills-with-linkedin-learning-2/learning-paths" target="_blank">LinkedIn Learning</a></h3>
-                        <ul>
-                            <li><h5>Intro to Web Design and Development</h5></li>
-                            <li><h5><a href="https://www.linkedin.com/learning/paths/become-a-front-end-web-developer?trk=learning-serp_learning_search-card&upsellOrderOrigin=default_guest_learningg" target="_blank">Learning Path: Become a Front End Web Developer</a> <em>[In Progress]</em></h5></li>
-                            <li><h5><a href="https://www.linkedin.com/learning/paths/become-a-junior-wordpress-developer?trk=learning-serp_learning_search-card&upsellOrderOrigin=default_guest_learning" target="_blank">Learning Path: Become a Junior Wordpress Developer</a> <em>[In Progress]</em></h5></li>
-                        </ul>
-                    </section>
-                    <section id="cert">
-                        <h3>Course Certifications</h3>
-                        <div class="cert-entry">
-                            <h4>Windows Server 2016: Networking</h4>
-                            <p>Candidate: U2EXL, Certificate: C45EM<br><a href="https://www.testout.com/courses" target="_blank">TestOut Labsim</a></p>
-                        </div>
-                        <div class="cert-entry"> 
-                            <h4>Security Pro (CompTIA Approved)</h4>
-                            <p>Candidate: U2EXL, Certificate: C3AJR<br><a href="https://www.testout.com/courses" target="_blank">TestOut Labsim</a></p>
-                        </div>
-                        <div class="cert-entry">
-                            <h4>Network Pro (CompTIA Approved)</h4>
-                            <p>Candidate: U2EXL, Certificate: C38XS<br><a href="https://www.testout.com/courses" target="_blank">TestOut Labsim</a></p>
-                        </div>
-                    </section>
-                </div>
-                <div class="schooling">
-                    <section id="school">
-                        <h3>Colorado State University</h3>
-                        <h4>Bachelor of Science IT <em>(08/2017 - 12/2019)</em></h4>
+                <div class="two">
+                    <h4>Colorado State University</h4>
+                    <h5>Bachelor of Science IT <em>(08/2017 - 12/2019)</em></h5>
                         <p>Excelled in these courses:</p>
                         <ul>
                             <li>Organizational Leadership</li>
@@ -61,10 +356,19 @@
                             <li>Python Programming</li>
                             <li>Database Management (MySQL)</li>
                         </ul>
-                    </section>
-                    <section id="school">
-                        <h3>Portland Community College</h3>
-                        <h4>Associate of Science <em>(08/2016 - 08/2017)</em></h4>
+                </div>
+                <div class="three">
+                    <h4>Course Certifications (<a href="https://www.testout.com/courses" target="_blank">TestOut Labsim</a>)</h4>
+                      <h5>Windows Server 2016: Networking</h5>
+                        <p>Candidate: U2EXL, Certificate: C45EM</p>
+                      <h5>Security Pro (CompTIA Approved)</h5>
+                        <p>Candidate: U2EXL, Certificate: C3AJR</p>
+                      <h5>Network Pro (CompTIA Approved)</h5>
+                        <p>Candidate: U2EXL, Certificate: C38XS</p>
+                </div>
+                <div class="four">
+                    <h4>Portland Community College</h4>
+                    <h4>Associate of Science <em>(08/2016 - 08/2017)</em></h4>
                         <p>Excelled in these courses:</p>
                         <ul>
                             <li>Public Speaking</li>
@@ -72,110 +376,86 @@
                             <li>C++ Programming<br>
                             (Linux Environment)</li>
                         </ul>
-                    </section>
                 </div>
-            </section> 
+            </article>
 
-            <!-- Projects -->
-            <section class="projects">
-                <div>
-                    <h2>Projects:</h2>
-                    <a href="index.html" class ="projects" id="proj">
-                        <img src="pictures/main-page.png"/>
-                        <h4>This Site!</h4>
-                        <p>I built this page while learning html and CSS. It's likely to be ever changing as I learn more techniques for web design.</p>
-                    </a>
-                    <a href="it-page/" target="_blank" class ="projects" id="proj">
-                        <img src="it-page/images/sample-logo.png"/>
-                        <h4>Company IT Page</h4>
-                        <p>Why I began learning Web Development. We needed a new IT page so I made one using what I've learned so far.</p>
-                    </a>
-                    <a href="projects/writing.html" target="_blank" class ="projects" id="proj">
-                        <img src="pictures/thumb_desk.png"/>
-                        <h4>Technical Writing</h4>
-                        <p>Under Contruction...</p>
-                    </a>
-                    <!-- <a href="pictures/" target="_blank" class ="projects" id="proj">
-                        <img src=".\pictures/ProfileOptions.JPG"/>
-                        <h4>Pictures</h4>
-                        <p>Under Construction...</p>
-                    </a>
-                    <a href="#" target="_blank" class ="projects" id="proj">
-                        <img src="pictures/thumb_bww.png"/>
-                        <h4>Videos</h4>
-                        <p>Under Construction...</p>
-                    </a>
-                    <a href="projects/kensdesk.html" target="_blank" class ="projects" id="proj">
-                        <img src="projects/pics/desk_start.jpg"/>
-                        <h4>Desk Project</h4>
-                        <p>Under Construction...</p> -->
-                    </a>
-                </div>
-            </section>
-
-            <!-- Work Experience -->
-            <section class="work-experience">
-                <div class="content-wrap">
-                    <h2>Work Experience:</h2>
-                    <section id="job">
-                        <h3>Network Administrator | Metro West Ambulance</h3>
-                        <h4><em>(11/13/17 - Present)</em></h4>
-                        <p>Job Summary:</p>
-                        <p class="desc"><i>Responsible for installing, maintaining and upgrading any software or hardware required to efficiently run the computer network; this extends to a local area network, wide area network, the Internet and intranets.</i></p>
-                        <p>Additional Duties:</p>
+            <!-- WORK EXPERIENCE -->
+            <article class="work">
+                <h3>Work Experience:</h3>
+                <p>See my complete work history on <a href="https://www.linkedin.com/in/ken-villalpando" target="_blank">LinkedIn</a></p>
+                <!-- Job 1 -->
+                <section class="job-item">
+                    <div class="job-details">
+                        <h4>Network Administrator</h4>
+                        <p>Metro West Ambulance</p>
+                        <p>November 2017 - Present<p>
+                    </div>
+                    <div class="job-summary">
+                        <p>Responsible for installing, maintaining and upgrading any software or hardware required 
+                            to efficiently run the computer network; this extends to a local area network, 
+                            wide area network, the Internet and intranets.</p>       
+                        <!-- <h4>Additional Duties:</h4> -->
+                        <p>Key Contributions:</p>
                         <ul>
                             <li>Mobile Device Management for Company Cell Phones and Tablets</li>
                             <li>Communicate IT department directives with technical and non-technical stakeholders and employees</li>
                         </ul>
-                    </section>
-                        <section id="job">
-                        <h3>Store Manager | Big 5 Sporting Goods</h3>
-                        <h4><em>(7/13/10 - 8/16/16)</em></h4>
-                        <p>Job Summary:</p>
-                        <p class="desc">
-                            <i>Responsible for overseeing the daily operations of the store. Duties include motivating sales teams, creating business strategies, developing promotional material, and training new staff.</i>
-                        </p>
-                        <p>Optional List:</p>
+                    </div>
+                </section>
+                
+                <!-- Job 2 -->
+                <section class="job-item">
+                    <div class="job-details">
+                        <h4>Store Manager</h4>
+                        <p>Big 5 Sporting Goods</p>
+                        <p>July 2010 - August 2016</p>
+                    </div>
+                    <div class="job-summary">
+                        <p>Responsible for overseeing the daily operations of the store. Duties include motivating sales teams, creating business strategies, developing promotional material, and training new staff.</p>        
+                        <p>Key Contributions:</p>
                         <ul>
                             <li>Recruit, cultivate, and direct a staff of 13 to 16 team members</li>
                             <li>Explain and interpret company policies to customers and staff; conflict resolution</li>
                         </ul>
-                    </section>
-                </div>
-            </section>
-                        
-            <!-- About Me -->
-            <section class="about-me">
-                <div class="content-wrap">
-                    <img src=".\pictures/ken.png" alt="Ken" />
-                    
-                    <section id="about">
-                        <h2>About Me:</h2>
-                        <p>I completed a Bachelor Science for Information Technology just in time for COVID-19 quarantine. During this time, I've been taking guitar and Spanish lessons while completing courses on LinkedIn Learning. 
-                        <br><br>
-                        I decided to make a website to practice what I've learned in the HTML and CSS Essential Courses.</p>
-                    </section>
-                    <ul>Links that Changed Everything:
+                    </div>
+                </section>   
+            </article>
+
+            <!-- PROJECTS -->
+            <!-- <article class="projects">
+                Projects:
+            </article> -->
+
+            <!-- ABOUT ME -->
+            <article class="about">
+                <img src=".\pictures/ken.png" alt="Ken" />
+                <section class="me-info">
+                    <h2>About Me:</h2>
+                    <p>I completed a Bachelor Science for Information Technology 
+                        just in time for COVID-19 quarantine. During this time, 
+                        I've been taking guitar and Spanish lessons while 
+                        completing courses on LinkedIn Learning.</p>
+                </section>
+                <section class="links">
+                    <ul><h4>Links that Changed Everything:</h4>
                         <li><a href="https://csuglobal.edu/blog/using-mindfulness-techniques-to-improve-schoolwork?utm_medium=socialmedia&utm_source=linkedin_company&utm_campaign=productcategory_general&utm_content=_9_5_19" target="_blank">Mindfulness for Studying</a></li>
                         <li><a href="https://www.medicalnewstoday.com/articles/324417" target="_blank">Breathing for Anxiety</a></li>
                         <li><a href="https://bulletjournal.com/pages/learn" target="_blank">Bullet Journaling</a></li>
                     </ul>
-                </div>
-            </section>
-     
-            <!-- Contact Info / Social Media -->
-            <footer>
-                <div class="content-wrap">
-                    <h2>Let's keep in touch!</h2>
-                    <!-- Social Media and Links -->
-                    <ul>
-                        <li><a href="mailto:kvillalp@gmail.com">Email</a></li>
-                        <li><a href="https://kepando.github.io" target="_blank">Website</a></li>
-                        <li><A href="https://twitter.com/kepando">Twitter</a></li>
-                        <li><a href="https://www.instagram.com/kepando/" target="_blank">Instagram</a></li>
-                    </ul>
-                </div>
-            </footer>
+                </section>
+            </article>
         </main>
+
+        <!-- CONTACT INFO -->
+        <footer>
+            <h3>Let's Keep in Touch!</h3>
+            <!-- Social Media and Links -->
+            <ul class="contact-list">
+                <li><a href="mailto:kvillalp@gmail.com">Email</a></li>
+                <li><a href="https://kepando.github.io" target="_blank">Website</a></li>
+                <li><A href="https://twitter.com/kepando">Twitter</a></li>
+                <li><a href="https://www.instagram.com/kepando/" target="_blank">Instagram</a></li>
+            </ul>
+        </footer>
     </body>
 </html>
