@@ -1,0 +1,396 @@
+/*
+COLOR PALETTE
+https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
+#F7FFF7 - ALMOST WHITE
+#343434 - DARK GRAY
+#2F3061 - DARK BLUE
+#FFE66D - YELLOW
+#A1C6D7 - LIGHT BLUE
+
+#C17C74 - OLD ROSE (Salmon)
+#2A3D45 - Charcoal
+background: rgba(47, 48, 97, 80%)
+3B0c0c - Dark Sienna (59,12,12)
+#EAD2AC - WHEAT
+#D6A184 - Orange ish tangerine/salmon
+#EEE0CB - BONE
+*/
+
+/* -------------------- GLOBAL STYLES -------------------- */
+html {
+    background: #AB9B8C;
+}
+body {
+    color: #343434;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px; /* Set a base font size */
+    line-height: 1.5; /* Set a line height */
+}
+a {
+    color: #2F3061;
+}
+a:hover {
+    color: #343434;
+    text-decoration: none;
+}
+h1 {
+    font-size: 100px;
+    line-height: 1;
+}
+h2 {
+    font-size: 28px;
+}
+h3 {
+    margin: 0;
+}
+h1, h2 {
+    /* font-family: 'Caveat', cursive;*/
+    /* font-size: 10vw; */
+    font-weight: 400;
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+ul {
+    margin: 0;
+}
+ .content-wrap {
+    max-width: 800px;
+    width: 85%;;
+    margin: auto;
+    padding: 60px 0;
+} 
+
+/* -------------------- HEADER -------------------- */
+header {
+    width: 100%;
+    background: #C17C74;
+    color: #F7FFF7;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    box-shadow: 0px 5px 10px #7A6C5d;
+}
+header h1 {
+    font-size: 10vw;
+    font-family: 'Yeseva One', cursive;
+    text-shadow: 2px 2px 10px #3B0C0C;
+    text-align: center;
+}
+header h2 {
+    font-size: 5vw;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 10px #3B0C0C;
+}
+/* -------------------- EDUCATION -------------------- */
+.education {
+    clear: both;
+    background: none;
+    padding: 20px 0px 30px 10px;
+    height: 440px;
+    min-width: 780px;
+    width: 80%;
+    /* font-size: 2vw; */
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid white;
+    margin: 35px auto 35px auto;
+}
+.education h2 {
+    font-style: normal;
+    color: white;
+    width: 730px;
+    width: 80%;
+    margin: auto;
+    /* text-align: center; */
+/*    padding-left: 35px;*/
+    padding-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    /* font-size: 30px; */
+    font-size: 3vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 10px #7A6C5d;
+}
+/* CERTS & LINKEDIN LEARNING */
+.certifications {
+    float: left;
+    background: none;
+    width: 365px;
+}
+#cert {
+    padding: 0px 10px 10px 35px;
+    margin: 0px 10px;
+}
+#cert h3 {
+    color:#2A3D45;
+    text-decoration: underline;
+}
+#cert h4 {
+    color: #2A3D45;
+    margin: 0px;
+    padding-left: 15px;
+}
+#cert h4 em {
+    color: rgba(0, 0, 0, 60%);
+    font-size: 14px;
+}
+#cert h5 {
+    color: #2A3D45;
+    font-size: 14px;
+    font-weight: 900;
+    margin: 0px;
+    padding-left: 0px;
+}
+#cert p {
+    margin: 0;
+    padding-left: 30px;
+}
+#cert a {
+    text-decoration: none;
+    font-weight: 900;
+}
+#cert a:hover {
+    text-decoration: underline;
+    color: #2A3D45;
+}
+#cert ul {
+    padding-left: 40px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+.schooling {
+    background: none;
+    float: left;
+    width: 384px;
+    border-left: 2px solid white;
+}
+#school {
+    padding: 0px 10px 10px 35px;
+}
+#school h3 {
+    color:#2A3D45;
+    text-decoration: underline
+}
+#school h3 em {
+    color: rgba(0, 0, 0, 60%);
+    font-size: 14px;
+}
+#school h4 {
+    color: #2A3D45;
+    font-weight: 900;
+    margin: 0px;
+    padding-left: 10px;
+}
+#school p {
+    font-weight: 900;
+    margin: 0;
+    padding-left: 45px;
+}
+#school ul {
+    color: rgba(0, 0, 0, 60%);
+    padding-left: 70px;
+    padding-bottom: 15px;
+}
+
+/* -------------------- PROJECTS -------------------- */
+.projects {
+    width: 70%;
+    margin: 0px auto;
+    background: none;
+    padding: 30px 100px 40px 100px;
+    font-weight: 100;
+    height: 300px;
+    align-content: center;
+}
+.projects h2 {
+    color: white;
+    margin: 0px auto;
+    padding: 0px 0px 10px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 10px #7A6C5d;
+}
+a#proj.projects {
+    background: #DDC9B4;
+    font-family: 'Open Sans', sans-serif;
+    width: 200px;
+    height: 230px;
+    margin: 10px 25px 20px;
+    padding: 0px;
+    box-shadow: 0px 5px 10px #7A6C5d;
+    float: left;
+    opacity: .9;
+    filter: grayscale(60%);
+    text-decoration: none;
+}
+a#proj:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+    box-shadow: 0px 5px 10px #7A6C5d;
+}
+a#proj:active {
+    box-shadow: none;
+}
+a#proj img {
+    object-fit: cover;
+    object-position: top;
+    width: 200px;
+    height: 100px;
+    margin: 0px;
+}
+a#proj img:hover {
+    height: 120px;
+}
+a#proj h4 {
+    color: #2A3D45;
+    font-family: 'Open Sans', sans-serif;
+    width: 190px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    text-align: center;
+}
+a#proj p {
+    color: #2A3D45;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    width: 170px;
+    margin: 0px;
+    padding: 0px 15px;
+}
+
+
+
+/* -------------------- WORK EXPERIENCE -------------------- */
+.work-experience {
+    clear: both;
+    background: #D6A184;
+    color: #2A3D45;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    height: 540px;
+    width: 850px;
+    margin: 20px auto;
+    padding: 20px 10px 30px 10px;
+    box-shadow: 2px 5px 10px #7A6C5d;
+    border-radius: 2px;
+}
+.work-experience h2 {
+    color: #2A3D45;
+    width: 700;
+    margin: 0px auto;
+    padding: 0px 0px 10px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#job {
+    background: none;
+    padding: 0px 15px 15px 35px;
+    width: 400;
+}
+#job h3 {
+    font-weight: 900;
+    margin: 0;
+}
+#job h3 em {
+    font-size: 14px;
+}
+#job h4 {
+    padding: 0px 0px 0px 15px;
+    color: rgba(0, 0, 0, 60%);
+    margin: 0px;
+}
+#job p {
+    font-weight: 900;
+    text-decoration: underline;
+    padding: 0px 0px 0px 25px;
+}
+#job .desc {
+    font-weight: 100;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    width: 75q0px;
+}
+#job ul {
+    padding-left: 60px;
+}
+
+/* -------------------- ABOUT ME -------------------- */
+.about-me {
+    clear: both;
+    background: #A9B18F;
+    color: #2A3D45;
+    font-family: 'Open Sans', sans-serif;
+    padding: 25px 25px 0px 25px;
+    height: 300px;
+    width: 900px;
+    margin: 0px auto 0px auto;
+    box-shadow: 0px -1px 10px #7A6C5d;
+}
+.about-me img {
+    float: left;
+    width: 110px;
+    border: 2px solid #2A3D45;
+    margin-top: 12px;
+}
+#about {
+    float: left;
+    width: 660px;
+    padding: 0px 0px 12px 0px;
+}
+#about h2 {
+    font-size: 24px;
+    padding: 0px 0px 0px 40px;
+}
+#about p {
+    width: 630px;
+    padding: 0px 0px 0px 40px;
+    font-style: italic;
+}
+.about-me ul {
+    clear: both;
+    padding: 0px 0px 0px 40px;
+    font-style: italic;
+}
+/* -------------------- CONTACT INFO -------------------- */
+footer {
+    width: 100%;
+    background: #343434;
+    color: #F7FFF7;
+    height: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+footer a {
+    color: #F7FFF7;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #F7FFF7;
+    font-weight: bold;
+}
+.content-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.content-list a {
+    padding: 15px;
+    display: inline-block;
+}
